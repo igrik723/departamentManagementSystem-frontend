@@ -1,0 +1,21 @@
+.teachers_container{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.teachers_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    width: 700px;
+    height: 90px;
+    cursor: pointer;
+}
+
+@media(max-width: 950px) {
+    .teachers_btn{
+        width: 100%;
+    }
+}

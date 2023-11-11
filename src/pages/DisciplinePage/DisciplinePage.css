@@ -1,0 +1,59 @@
+.discipline-page_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discipline-page_card{
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.teachers-title{
+    margin-top: 8px;
+}
+
+.teachers-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teachers-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.list-item{
+    width: 100%;
+}
+
+.list-group{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teachers-list_btn{
+    margin: 8px;
+}
+
+.teachers-dropDown{
+    padding: 16px;
+}
+
+@media(max-width:620px) {
+    .discipline-page_card{
+        max-width: 100%;
+    }
+    .teachers-wrapper{
+        flex-direction: column;
+    }
+    .list-group{
+        width: 100%;
+    }
+}

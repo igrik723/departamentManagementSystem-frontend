@@ -1,0 +1,48 @@
+.teacher-page_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-page_card{
+    margin-top: 8px;
+    padding: 8px;
+    width: 750;
+    cursor: pointer;
+    background-color: #0d6efd;
+}
+
+.about_title{
+    color: white;
+    text-align: center;
+}
+
+.teacher-page_title{
+    color: white;
+}
+
+.teacher-page_info{
+    font-size: 20px;
+    color: white;
+}
+
+.teacher-page_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher-page_list{
+    width: 300px;
+}
+
+.list_item{
+    width: 100%;
+}
+
+@media(max-width:530px){
+    .teacher-page_container{
+        justify-content: center;
+        flex-direction: column;
+    }
+}

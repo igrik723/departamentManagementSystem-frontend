@@ -1,0 +1,31 @@
+.teacher-item_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+}
+
+.teacher-item_card{
+    margin-top: 16px;
+    padding: 8px;
+    width: 750px !important;
+    cursor: pointer;
+    background-color: #0d6efd;
+}
+
+.teacher-item_title{
+    color: white;
+}
+
+.teacher-desired{
+    color: white;
+}
+
+@media(max-width: 950px){
+    .teacher-item_wrapper{
+        width: 100%;
+    }
+    .teacher-item_card{
+        width: 100% !important;
+    }
+}

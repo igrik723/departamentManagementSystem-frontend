@@ -1,0 +1,18 @@
+.discipline-list_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discipline-list_btn{
+    margin: 8px;
+}
+@media(max-width:700px){
+    .discipline-list_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+    .discipline-list_btn{
+        width: 100%;
+    }
+}

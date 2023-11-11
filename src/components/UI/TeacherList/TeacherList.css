@@ -1,0 +1,22 @@
+.teacher-list_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.teacher-list_btn{
+    margin: 16px;
+    width: 200px;
+    height: 70px;
+}
+
+@media(max-width:1280px){
+    .teacher-list_container{
+        flex-direction: column;
+    }
+    .teacher-list_btn{
+        width: 100%;
+        height: 50px;
+    }
+}

@@ -1,0 +1,59 @@
+.Auth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Users/igorhilkevic/Desktop/кафедра/client/src/assets/opengraph-image_1_1920x1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    padding: 48px;
+    width: 600px;
+}
+.main-title {
+    margin: auto;
+    color: #0d6efd;
+}
+.name-title {
+    margin: auto;
+    color: #0d6efd;
+}
+.auth-title {
+    margin: auto;
+}
+.email-form{
+    margin-top: 16px;
+}
+.pas-form{
+    margin-top: 16px;
+}
+.hide-btn{
+    margin-top: 8px;
+}
+.success-btn {
+    margin-top: 16px;
+}
+@media (max-width: 465px) {
+    .card{
+        padding: 10px;
+    }
+}
+@media (max-width: 390px) {
+    .email-form{
+        font-size: 12px;
+    }
+}
+@media (max-width: 332px) {
+    .main-title{
+        font-size: 25px;
+    }
+}
